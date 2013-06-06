@@ -1,0 +1,9 @@
+<div class="slider">
+    <div class="slider-left">{{start}}</div>
+    <div class="slider-work-area"
+         ng-mousedown="updatePos($event)"
+         ng-mousemove="updatePos($event)">
+        <div class="slider-control" style="left:{{offset}}%;"><div class="slider-control-inner"></div></div>
+    </div>
+    <div class="slider-right">{{end}}</div>
+</div>

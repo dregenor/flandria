@@ -1,0 +1,9 @@
+<div ng-transclude id="navigator">
+    <div id="videoControlls">
+        <div id="stopVideo"  ng-show="isPlayed" ng-click="stop()">StopPlay</div>
+        <div id="muteVideo"  ng-show="isPlayed" ng-click="toggleMute()">
+            <span ng-show="!isMuted">mute <b>ON</b></span>
+            <span ng-show="isMuted">mute <b>OFF</b></span>
+        </div>
+    </div>
+</div>
